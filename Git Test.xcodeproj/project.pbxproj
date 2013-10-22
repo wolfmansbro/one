@@ -21,6 +21,7 @@
 		842EB7F21816E89900974856 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842EB7D41816E89900974856 /* UIKit.framework */; };
 		842EB7FA1816E89900974856 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 842EB7F81816E89900974856 /* InfoPlist.strings */; };
 		842EB7FC1816E89900974856 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842EB7FB1816E89900974856 /* Git_TestTests.m */; };
+		842EB8071816EA0900974856 /* HHTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 842EB8061816EA0900974856 /* HHTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		842EB7F71816E89900974856 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		842EB7F91816E89900974856 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		842EB7FB1816E89900974856 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		842EB8051816EA0900974856 /* HHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HHTest.h; path = ../HHTest.h; sourceTree = "<group>"; };
+		842EB8061816EA0900974856 /* HHTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HHTest.m; path = ../HHTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				842EB7E21816E89900974856 /* Main.storyboard */,
 				842EB7E51816E89900974856 /* HHViewController.h */,
 				842EB7E61816E89900974856 /* HHViewController.m */,
+				842EB8051816EA0900974856 /* HHTest.h */,
+				842EB8061816EA0900974856 /* HHTest.m */,
 				842EB7E81816E89900974856 /* Images.xcassets */,
 				842EB7D71816E89900974856 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				842EB7E71816E89900974856 /* HHViewController.m in Sources */,
 				842EB7E11816E89900974856 /* HHAppDelegate.m in Sources */,
 				842EB7DD1816E89900974856 /* main.m in Sources */,
+				842EB8071816EA0900974856 /* HHTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
